@@ -1,6 +1,8 @@
 # Awesome-AAAI
+
 人工智能学术会议AAAI论文收集
-##1996 ~2020 年历届 AAAI 最佳论文汇总
+
+## 1996 ~2020 年历届 AAAI 最佳论文汇总
 
 ### 2020
 #### WinoGrande: An Adversarial Winograd Schema Challenge at Scaleh
