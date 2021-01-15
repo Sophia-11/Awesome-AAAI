@@ -1,8 +1,9 @@
 # Awesome-AAAI
 人工智能学术会议AAAI论文收集
+##1996 ~2020 年历届 AAAI 最佳论文汇总
 
 ### 2020
-WinoGrande: An Adversarial Winograd Schema Challenge at Scaleh
+#### WinoGrande: An Adversarial Winograd Schema Challenge at Scaleh
 作者：Keisuke Sakaguchi、Ronan Le Bras、Chandra Bhagavatula、Yejin Choi
 论文介绍：维诺格拉德模式挑战赛（Winograd Schema Challenge：WSC）是一个用于常识推理的基准测试，该测试有 273 个专家编写的问题，专门应对依赖选择偏好和词语联想的统计学模型。但是近来，许多模型在该基准测试的性能已达到 90%。因此，研究者希望了解，这些模型是否真正获得了鲁棒的常识能力。
 因此，研究者提出了 WINOGRANDE，一个有着 44k 个问题的大规模数据集。该数据集在规模和难度上较之前的数据集更大。该数据集的构建包括两个步骤：首先使用众包的方式设计问题，然后使用一个新的 AFLITE 算法缩减系统偏见（systematic bias），使得人类可以察觉到的词汇联想转换成机器可以检测到的嵌入联想（embedding association）。现在最好的 SOTA 模型可以达到的性能是 59.4 – 79.1%，比人脸性能水平（94%）低 15-35%（绝对值）。这种性能波动取决于训练数据量（2% 到 100%）。
@@ -11,7 +12,7 @@ WinoGrande: An Adversarial Winograd Schema Challenge at Scaleh
 
 
 ### 2019
-How to Combine Tree-Search Methods in Reinforcement Learning
+#### How to Combine Tree-Search Methods in Reinforcement Learning
 
 作者：Yonathan Efroni, Gal Dalal, Bruno Scherrer, Shie Mannor
 
@@ -25,7 +26,7 @@ How to Combine Tree-Search Methods in Reinforcement Learning
 
 
 ### 2018
-Memory-Augmented Monte Carlo Tree Search
+#### Memory-Augmented Monte Carlo Tree Search
 作者：Chenjun Xiao, University of Alberta；
 Jincheng Mei, University of Alberta；
 Martin Müller, University of Alberta
@@ -33,13 +34,13 @@ Martin Müller, University of Alberta
 
 
 ### 2017
-Label-Free Supervision of Neural Networks with Physics and DomainKnowledge
+#### Label-Free Supervision of Neural Networks with Physics and DomainKnowledge
 作者： Russell Stewart & Stefano Ermon, Stanford University
 论文介绍：：在许多机器学习应用中，带标签的数据数量稀少，要获得更多的标签造价昂贵。本文引入了一种新的神经网络监督学习方法，不是直接给出输入-输出对的直接示例，而是指定在输出空间上能够成立的约束。这些约束来源于先前的特定领域知识（domain knowledge），如已知物理定律。本文展示了这种方法在真实世界和模拟计算机视觉任务上的有效性。使用这种方法，在没有任何带标签的训练样本的情况下，成功训练了一个卷积神经网络来检测和跟踪对象。
 
 
 ### 2016
-Bidirectional Search That Is Guaranteed to Meet in the Middle
+#### Bidirectional Search That Is Guaranteed to Meet in the Middle
 作者：Robert C. Holte, University of Alberta；
 Ariel Felner, Ben-Gurion University；
 Guni Sharon, Ben-Gurion University；
@@ -49,7 +50,7 @@ Nathan R. Sturtevant, University of Denver
 
 
 ### 2015
-From Non-Negative to General Operator Cost Partitioning
+#### From Non-Negative to General Operator Cost Partitioning
 作者：Florian Pommerening, University of Basel；
 Malte Helmert, University of Basel；
 Gabriele Röger, University of Basel；
@@ -59,7 +60,7 @@ Jendrik Seipp, University of Basel
 
 
 ### 2014
-Recovering from Selection Bias in Causal and Statistical Inference
+#### Recovering from Selection Bias in Causal and Statistical Inference
 作者：Elias Bareinboim, University of California Los Angeles；
 Jin Tian, Iowa State University；
 Judea Pearl, University of California Los Angeles
@@ -68,24 +69,24 @@ Judea Pearl, University of California Los Angeles
 
 
 ### 2013
-HC-Search: Learning Heuristics and Cost Functions for Structured Prediction
+#### HC-Search: Learning Heuristics and Cost Functions for Structured Prediction
 作者：Janardhan Rao Doppa, Oregon State University；
 Alan Fern, Oregon State University；
 Prasad Tadepalli, Oregon State University
 摘要：Structured prediction is the problem of learning a func- tion from structured inputs to structured outputs. In- spired by the recent successes of search-based struc- tured prediction, we introduce a new framework for structured prediction called HC-Search. Given a struc- tured input, the framework uses a search procedure guided by a learned heuristic H to uncover high qual- ity candidate outputs and then uses a separate learned cost function C to select a final prediction among those outputs. We can decompose the regret of the overall ap- proach into the loss due to H not leading to high qual- ity outputs, and the loss due to C not selecting the best among the generated outputs. Guided by this decompo- sition, we minimize the overall regret in a greedy stage- wise manner by first training H to quickly uncover high quality outputs via imitation learning, and then training C to correctly rank the outputs generated via H accord- ing to their true losses. Experiments on several bench- mark domains show that our approach significantly out- performs the state-of-the-art methods.
 
 
-SMILe: Shufﬂed Multiple-Instance Learning
+#### SMILe: Shufﬂed Multiple-Instance Learning
 作者：Gary Doran & Soumya Ray, Case Western Reserve University
 
 
 
 ### 2012
-Learning SVM Classifiers with Indefinite Kernels
+#### Learning SVM Classifiers with Indefinite Kernels
 作者：Suicheng Gu & Yuhong Guo, Temple University
 摘要：Recently, training support vector machines with indef- inite kernels has attracted great attention in the ma- chine learning community. In this paper, we tackle this problem by formulating a joint optimization model over SVM classifications and kernel principal compo- nent analysis. We first reformulate the kernel principal component analysis as a general kernel transformation framework, and then incorporate it into the SVM clas- sification to formulate a joint optimization model. The proposed model has the advantage of making consistent kernel transformations over training and test samples. It can be used for both binary classification and multi- class classification problems. Our experimental results on both synthetic data sets and real world data sets show the proposed model can significantly outperform related approaches.
 
-Document Summarization Based on Data Reconstruction
+#### Document Summarization Based on Data Reconstruction
 作者：Zhanying He, Zhejiang University；
 Chun Chen, Zhejiang University；
 Jiajun Bu, Zhejiang University；
@@ -98,7 +99,7 @@ Xiaofei He, Zhejiang University
 
 
 ### 2011
-Dynamic Resource Allocation in Conservation Planning
+#### Dynamic Resource Allocation in Conservation Planning
 作者：Daniel Golovin, California Institute of Technology；
 Andreas Krause, ETH Zurich；
 Beth Gardner, North Carolina State University；
@@ -106,7 +107,7 @@ Sarah J. Converse, Patuxent Wildlife Research Center；
 Steve Morey, U.S. Fish and Wildlife Service
 摘要：Consider the problem of protecting endangered species by selecting patches of land to be used for conservation purposes. Typically, the availability of patches changes over time, and recommendations must be made dynamically. This is a chal- lenging prototypical example of a sequential optimization problem under uncertainty in computational sustainability. Ex- isting techniques do not scale to problems of realistic size. In this paper, we develop an efficient algorithm for adaptively making recommendations for dynamic conservation planning, and prove that it obtains near-optimal performance. We further evaluate our approach on a detailed reserve design case study of conservation planning for three rare species in the Pacific Northwest of the United States.
 
-Complexity of and Algorithms for Borda Manipulation
+#### Complexity of and Algorithms for Borda Manipulation
 作者：Jessica Davies, University of Toronto；
 George Katsirelos, Université Paris-Sud；
 Nina Narodytska, University of New South Wales；
@@ -116,7 +117,7 @@ Toby Walsh, NICTA
 
 
 ### 2010
-How Incomplete Is Your Semantic Web Reasoner?
+#### How Incomplete Is Your Semantic Web Reasoner?
 作者：Giorgos Stoilos, Oxford University；
 Bernardo Cuenca Grau, Oxford University；
 Ian Horrocks, Oxford University
@@ -135,14 +136,14 @@ How Good is Almost Perfect?
 摘要：Heuristic search using algorithms such as A∗ and IDA∗ is the prevalent method for obtaining optimal sequential solu- tions for classical planning tasks. Theoretical analyses of these classical search algorithms, such as the well-known re- sults of Pohl, Gaschnig and Pearl, suggest that such heuristic search algorithms can obtain better than exponential scaling behaviour, provided that the heuristics are accurate enough. Here, we show that for a number of common planning bench- mark domains, including ones that admit optimal solution in polynomial time, general search algorithms such as A∗ must necessarily explore an exponential number of search nodes even under the optimistic assumption of almost per- fect heuristic estimators, whose heuristic error is bounded by a small additive constant.
 Our results shed some light on the comparatively bad per- formance of optimal heuristic search approaches in “simple” planning domains such as GRIPPER. They suggest that in many applications, further improvements in run-time require changes to other parts of the search algorithm than the heuris- tic estimator.
 
-Optimal False-Name-Proof Voting Rules with Costly Voting
+#### Optimal False-Name-Proof Voting Rules with Costly Voting
 作者：Liad Wagman & Vincent Conitzer, Duke University
 摘要：
 One way for agents to reach a joint decision is to vote over the alternatives. In open, anonymous settings such as the Inter- net, an agent can vote more than once without being detected. A voting rule is false-name-proof if no agent ever benefits from casting additional votes. Previous work has shown that all false-name-proof voting rules are unresponsive to agents’ preferences. However, that work implicitly assumes that cast- ing additional votes is costless. In this paper, we consider what happens if there is a cost to casting additional votes. We characterize the optimal (most responsive) false-name-proof- with-costs voting rule for 2 alternatives. In sharp contrast to the costless setting, we prove that as the voting population grows larger, the probability that this rule selects the major- ity winner converges to 1. We also characterize the optimal group false-name-proof rule for 2 alternatives, which is ro- bust to coalitions of agents sharing the costs of additional votes. Unfortunately, the probability that this rule chooses the majority winner as the voting population grows larger is relatively low. We derive an analogous rule in a setting with 3 alternatives, and provide bounding results and computational approaches for settings with 4 or more alternatives.
 
 
 ### 2007
-PLOW: A Collaborative Task Learning Agent
+#### PLOW: A Collaborative Task Learning Agent
 作者：James Allen, Institute for Human and Machine Cognition；
 Nathanael Chambers, Stanford University；
 George Ferguson, University of Rochester；
@@ -153,14 +154,14 @@ William Taysom, Institute for Human and Machine Cognition
 摘要：To be effective, an agent that collaborates with humans needs to be able to learn new tasks from humans they work with. This paper describes a system that learns executable task models from a single collaborative learning session consisting of demonstration, explanation and dialogue. To accomplish this, the system integrates a range of AI tech- nologies: deep natural language understanding, knowledge representation and reasoning, dialogue systems, plan- ning/agent-based systems and machine learning. A formal evaluation shows the approach has great promise.
 
 
-Thresholded Rewards: Acting Optimally in Timed, Zero-Sum Games
+#### Thresholded Rewards: Acting Optimally in Timed, Zero-Sum Games
 作者：Colin McMillen & Manuela Veloso, Carnegie Mellon University
 摘要：In timed, zero-sum games, the goal is to maximize the prob- ability of winning, which is not necessarily the same as max- imizing our expected reward. We consider cumulative inter- mediate reward to be the difference between our score and our opponent’s score; the “true” reward of a win, loss, or tie is determined at the end of a game by applying a thresh- old function to the cumulative intermediate reward. We in- troduce thresholded-rewards problems to capture this depen- dency of the final reward outcome on the cumulative interme- diate reward. Thresholded-rewards problems reflect different real-world stochastic planning domains, especially zero-sum games, in which time and score need to be considered. We investigate the application of thresholded rewards to finite- horizon Markov Decision Processes (MDPs). In general, the optimal policy for a thresholded-rewards MDP will be non- stationary, depending on the number of time steps remain- ing and the cumulative intermediate reward. We introduce an efficient value iteration algorithm that solves thresholded- rewards MDPs exactly, but with running time quadratic on the number of states in the MDP and the length of the time horizon. We investigate a number of heuristic-based tech- niques that efficiently find approximate solutions for MDPs with large state spaces or long time horizons.
 
 
 
 ### 2006
-Model Counting: A New Strategy for Obtaining Good Bounds
+#### Model Counting: A New Strategy for Obtaining Good Bounds
 作者：Carla P. Gomes, Cornell University；
 Ashish Sabharwal, Cornell University；
 Bart Selman, Cornell University
@@ -168,14 +169,14 @@ Bart Selman, Cornell University
 Model counting is the classical problem of computing the number of solutions of a given propositional formula. It vastly generalizes the NP-complete problem of propositional satisfiability, and hence is both highly useful and extremely expensive to solve in practice. We present a new approach to model counting that is based on adding a carefully cho- sen number of so-called streamlining constraints to the input formula in order to cut down the size of its solution space in a controlled manner. Each of the additional constraints is a randomly chosen XOR or parity constraint on the prob- lem variables, represented either directly or in the standard CNF form. Inspired by a related yet quite different theoretical study of the properties of XOR constraints, we provide a for- mal proof that with high probability, the number of XOR con- straints added in order to bring the formula to the boundary of being unsatisfiable determines with high precision its model count. Experimentally, we demonstrate that this approach can be used to obtain good bounds on the model counts for for- mulas that are far beyond the reach of exact counting meth- ods. In fact, we obtain the first non-trivial solution counts for very hard, highly structured combinatorial problem instances. Note that unlike other counting techniques, such as Markov Chain Monte Carlo methods, we are able to provide high- confidence guarantees on the quality of the counts obtained.
 
 
-Towards an Axiom System for Default Logic
+#### Towards an Axiom System for Default Logic
 作者：Gerhard Lakemeyer, RWTH Aachen University；
 Hector J. Levesque, University of Toronto
 摘要：Recently, Lakemeyer and Levesque proposed a logic of only- knowing which precisely captures three forms of nonmono- tonic reasoning: Moore’s Autoepistemic Logic, Konolige’s variant based on moderately grounded expansions, and Rei- ter’s default logic. Defaults have a uniform representation under all three interpretations in the new logic. Moreover, the logic itself is monotonic, that is, nonmonotonic reasoning is cast in terms of validity in the classical sense. While Lake- meyer and Levesque gave a model-theoretic account of their logic, a proof-theoretic characterization remained open. This paper fills that gap for the propositional subset: a sound and complete axiom system in the new logic for all three varieties of default reasoning. We also present formal derivations for some examples of default reasoning. Finally we present evi- dence that it is unlikely that a complete axiom system exists in the first-order case, even when restricted to the simplest forms of default reasoning.
 
 
 ### 2005
-The Max K- Armed Bandit: A New Model of Exploration Applied to Search Heuristic Selection
+#### The Max K- Armed Bandit: A New Model of Exploration Applied to Search Heuristic Selection
 作者：Vincent A. Cicirello, Drexel University；
 Stephen F. Smith, Carnegie Mellon University
 摘要：The multiarmed bandit is often used as an analogy for the tradeoff between exploration and exploitation in search prob- lems. The classic problem involves allocating trials to the arms of a multiarmed slot machine to maximize the expected sum of rewards. We pose a new variation of the multiarmed bandit—the Max K-Armed Bandit—in which trials must be allocated among the arms to maximize the expected best sin- gle sample reward of the series of trials. Motivation for the Max K-Armed Bandit is the allocation of restarts among a set of multistart stochastic search algorithms. We present an analysis of this Max K-Armed Bandit showing under certain assumptions that the optimal strategy allocates trials to the observed best arm at a rate increasing double exponentially relative to the other arms. This motivates an exploration strat- egy that follows a Boltzmann distribution with an exponen- tially decaying temperature parameter. We compare this ex- ploration policy to policies that allocate trials to the observed best arm at rates faster (and slower) than double exponen- tially. The results confirm, for two scheduling domains, that the double exponential increase in the rate of allocations to the observed best heuristic outperforms the other approaches.
@@ -183,7 +184,7 @@ Stephen F. Smith, Carnegie Mellon University
 
 
 ### 2004
-Learning and Inferring Transportation Routines
+#### Learning and Inferring Transportation Routines
 作者：Lin Liao, University of Washington；
 Dieter Fox, University of Washington；
 Henry Kautz, University of Washington
@@ -191,7 +192,7 @@ Henry Kautz, University of Washington
 
 
 ### 2002
-On Computing All Abductive Explanations
+#### On Computing All Abductive Explanations
 作者：Thomas Eiter, Technische Universität Wien；
 Kazuhisa Makino, Osaka University
 摘要：
@@ -200,13 +201,13 @@ We consider the computation of all respectively a polynomial subset of the expla
 
 
 ### 2000
-The Game of Hex: An Automatic Theorem-Proving Approach to Game Programming
+#### The Game of Hex: An Automatic Theorem-Proving Approach to Game Programming
 作者：Vadim V. Anshelevich, Vanshel Consulting
 摘要：The game of Hex is a two-player game with simple rules, a deep underlying mathematical beauty, and a strategic complexity comparable to that of Chess and Go. The massive game-tree search techniques developed mostly for Chess, and successfully used for Checkers, Othello, and a number of other games, become less useful for games with large branching factors like Go and Hex. We offer a new approach, which results in superior playing strength. This approach emphasizes deep analysis of relatively few game positions. In order to reach this goal, we develop an automatic theorem proving technique for topological analysis of Hex positions. We also discuss in detail an idea of modeling Hex positions with electrical resistor circuits. We explain how this approach is implemented in Hexy - the strongest known Hex-playing computer program, able to compete with best human players.
 
 
 ### 1999
-PROVERB: The Probabilistic Cruciverbalist
+#### PROVERB: The Probabilistic Cruciverbalist
 作者：Greg A. Keim, Duke University；
 Noam M. Shazeer, Duke University；
 Michael L. Littman, Duke University；
@@ -221,7 +222,7 @@ Karl Weinmeister, Duke University
 
 
 ### 1998
-Learning Evaluation Functions for Global Optimization and Boolean Satisfiability
+#### Learning Evaluation Functions for Global Optimization and Boolean Satisfiability
 作者：Justin A. Boyan & Andrew W. Moore, Carnegie Mellon University
 
 Acceleration Methods for Numeric CSPs
@@ -240,31 +241,31 @@ Sebastian Thrun, Carnegie Mellon University
 
 
 ### 1997
-Statistical Parsing with a Context-Free Grammar and Word Statistics
+#### Statistical Parsing with a Context-Free Grammar and Word Statistics
 作者：Eugene Charniak, Brown University
 
-A Practical Algorithm for Finding Optimal Triangulations
+#### A Practical Algorithm for Finding Optimal Triangulations
 作者：Krill Shoikhet & Dan Geiger, Technion
 
-Fast Context Switching in Real-Time Propositional Reasoning
+#### Fast Context Switching in Real-Time Propositional Reasoning
 作者：P. Pandurang Nayak & Brian C. Williams, NASA Ames Research Center
 
-Building Concept Representations from Reusable Components
+#### Building Concept Representations from Reusable Components
 作者：Peter Clark, Boeing；
 Bruce Porter, University of Texas at Austin
 
 
 
 ### 1996
-Verification of Knowledge Bases Based on Containment Checking
+#### Verification of Knowledge Bases Based on Containment Checking
 作者：Alon Y. Levy, AT&T Laboratories；
 Marie-Christine Rousset, Université Paris-Sud
 
-A Novel Application of Theory Refinement to Student Modeling
+#### A Novel Application of Theory Refinement to Student Modeling
 作者：Paul T. Baffes, SciComp；
 Raymond J. Mooney, University of Texas at Austin
 
-Pushing the Envelope: Planning, Propositional Logic, and Stochastic Search
+#### Pushing the Envelope: Planning, Propositional Logic, and Stochastic Search
 作者：Henry Kautz & Bart Selman, AT&T Laboratories
 
 
