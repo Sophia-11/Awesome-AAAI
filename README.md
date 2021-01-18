@@ -2,6 +2,10 @@
 
 人工智能学术会议AAAI论文收集
 
+#### 2021AAAI录用文章名单
+
+[2021年录用文章名单](http://aaai.org/Conferences/AAAI-21/wp-content/uploads/2020/12/AAAI-21_Accepted-Paper-List.Main_.Technical.Track_.pdf)
+
 ## 1996 ~2020 年历届 AAAI 最佳论文汇总
 
 ------------------------------------------------------
